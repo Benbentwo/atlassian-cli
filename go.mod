@@ -9,6 +9,7 @@ require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/coryb/figtree v1.0.1-0.20190907170512-58176d03ef0d
 	github.com/coryb/oreo v0.0.0-20180804211640-3e1b88fc08f1
+	github.com/ghodss/yaml v1.0.0
 	github.com/go-jira/jira v1.0.23
 	github.com/gofrs/flock v0.7.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b

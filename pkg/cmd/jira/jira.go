@@ -37,6 +37,7 @@ func NewCmdJira(commonOpts *common.CommonOptions) *cobra.Command {
 	// the line above this and below can be deleted.
 	// DO NOT DELETE THE FOLLOWING LINE:
 	// Section to add commands to:
+	cmd.AddCommand(NewCmdJiraConfigure(commonOpts))
 	cmd.DisableFlagParsing = true
 
 	return cmd
@@ -95,7 +96,7 @@ func (o *JiraOptions) Run() error {
 					log.Errorf("Invalid Regex: %s", err)
 				} else if ok {
 					// insert "view" at i=1 (2nd position)
-					os.Args = append(os.Args[:1], append([]string{"view"}, os.Args[2:]...)...)
+					os.Args = append(os.Args[:], append([]string{"view"}, os.Args[2:]...)...)
 				}
 			}
 		}
