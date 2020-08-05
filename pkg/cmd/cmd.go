@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/Benbentwo/go-bin-generic/pkg/cmd/common"
-	"github.com/Benbentwo/go-bin-generic/pkg/version"
+	"github.com/Benbentwo/atlassian-cli/pkg/cmd/common"
+	"github.com/Benbentwo/atlassian-cli/pkg/version"
 	"github.com/spf13/viper"
 	"io"
 	"strings"

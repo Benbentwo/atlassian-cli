@@ -1,4 +1,4 @@
-module github.com/Benbentwo/go-bin-generic
+module github.com/Benbentwo/atlassian-cli
 
 go 1.12
 

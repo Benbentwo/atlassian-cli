@@ -1,6 +1,6 @@
 GIT_SERVER 	:= github.com
-ORG			:= Benbentwo
-REPO        := go-bin-generic
+ORG         := Benbentwo
+REPO        := atlassian-cli
 BINARY 		:= go-bin-generic
 
 # Pretty Constant stuff Below, Configurable above

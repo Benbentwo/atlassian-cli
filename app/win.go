@@ -3,7 +3,7 @@
 package app
 
 import (
-	"github.com/Benbentwo/go-bin-generic/pkg/cmd"
+	"github.com/Benbentwo/atlassian-cli/pkg/cmd"
 	"os"
 	"syscall"
 )
