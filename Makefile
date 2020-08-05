@@ -1,7 +1,7 @@
 GIT_SERVER 	:= github.com
 ORG         := Benbentwo
 REPO        := atlassian-cli
-BINARY 		:= go-bin-generic
+BINARY 		:= atlcli
 
 # Pretty Constant stuff Below, Configurable above
 

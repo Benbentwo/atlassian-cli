@@ -2,6 +2,8 @@ package cmd
 
 import (
 	"github.com/Benbentwo/atlassian-cli/pkg/cmd/common"
+	"github.com/Benbentwo/atlassian-cli/pkg/cmd/confluence"
+	"github.com/Benbentwo/atlassian-cli/pkg/cmd/jira"
 	"github.com/Benbentwo/atlassian-cli/pkg/version"
 	"github.com/spf13/viper"
 	"io"
@@ -37,6 +39,8 @@ func NewMainCmd(in terminal.FileReader, out terminal.FileWriter, err io.Writer, 
 
 	// Section to add commands to:
 	cmd.AddCommand(version.NewCmdVersion(commonOpts))
+	cmd.AddCommand(confluence.NewCmdConfluence(commonOpts))
+	cmd.AddCommand(jira.NewCmdJira(commonOpts))
 
 	return cmd
 }
