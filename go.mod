@@ -23,8 +23,7 @@ require (
 	github.com/theckman/go-flock v0.7.1 // indirect
 	github.com/yuin/goldmark v1.2.1 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200805065543-0cf7623e9dbd // indirect
-	google.golang.org/appengine v1.4.0 // indirect
+	golang.org/x/sys v0.1.0 // indirect
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	gopkg.in/coryb/yaml.v2 v2.0.0-20180616071044-0e40e46f7153
 	gopkg.in/op/go-logging.v1 v1.0.0-20160211212156-b2cb9fa56473
